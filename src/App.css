@@ -1,36 +1,105 @@
-#text {
-  display: flex;
-  flex-direction: row;
-  justify-content: baseline;
-  gap: 20px;
-  background-color: black;
-  width: 100%;
-  height: auto;
-  padding-left: 20px;
+#Trailer {
+  position: absolute;
+  right: 0;
+  margin-top: 40px;
+  min-width: 100%; 
+  min-height: 100%;
 }
-
-#num1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: baseline;
-  gap: 20px;
-  padding-left: 10px;
-}
-
-#btn1 {
-  border: none;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
+button {
   cursor: pointer;
 }
-
-#btn2 {
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.Link {
   color: white;
-  border: none;
-  background-color: rgba(255, 255, 255, 0);
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 13px;
+  padding-left: 30px;
+}
+.Link2 {
   color: white;
   font-size: 15px;
-  cursor: pointer;
+  text-decoration: none;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+.btn1 {
+  border: none;
+  background-color: transparent;
+}
+.Title {
+  position: absolute;
+  padding-top: 20%;
+  padding-left: 20px;
+}
+.texts {
+  position: absolute;
+  color: white;
+  padding-top: 30%;
+  padding-left: 21px;
+  background-color: transparent;
+  width: 700px;
+}
+.button {
+  position: absolute;
+  color: white;
+  padding-top: 35%;
+  padding-left: 21px;
+  background-color: transparent;
+  border: none;
+  gap: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button12 {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  width: 150px;
+}
+.Play {
+  color: black;
+  text-decoration: none;
+}
+.button123124 {
+  background-color: #515451;
+  width: 200px;
+  height: 52px;
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
 }

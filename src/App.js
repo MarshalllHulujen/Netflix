@@ -1,10 +1,11 @@
 import "./App.css";
-import { Header1 } from "./component/Header1";
+import { Header2 } from "./component/Header2";
 
 function App() {
   return (
+    
     <div className="App">
-      <Header1 />
+      <Header2 />
     </div>
   );
 }
